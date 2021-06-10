@@ -1,0 +1,69 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  ~ Copyright 2019, The Android Open Source Project
+4  ~
+5  ~ Licensed under the Apache License, Version 2.0 (the "License");
+6  ~ you may not use this file except in compliance with the License.
+7  ~ You may obtain a copy of the License at
+8  ~
+9  ~      http://www.apache.org/licenses/LICENSE-2.0
+10  ~
+11  ~ Unless required by applicable law or agreed to in writing, software
+12  ~ distributed under the License is distributed on an "AS IS" BASIS,
+13  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14  ~ See the License for the specific language governing permissions and
+15  ~ limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.example.android.dessertclicker"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="19"
+23-->/home/alkhelaifi/AndroidStudioProjects/DessertClicker/app/src/main/AndroidManifest.xml
+24        android:targetSdkVersion="30" />
+24-->/home/alkhelaifi/AndroidStudioProjects/DessertClicker/app/src/main/AndroidManifest.xml
+25
+26    <!--
+27    Note (regarding android:name attribute in the <application> tag) :
+28        - If you don't add your custom Application class to the Android manifest, your app will run without errors.
+29        - However, the app won't use your class, and you'll never see any logging information from Timber.
+30    -->
+31    <application
+31-->/home/alkhelaifi/AndroidStudioProjects/DessertClicker/app/src/main/AndroidManifest.xml:25:5-40:19
+32        android:name="com.example.android.dessertclicker.ClickerApplication"
+32-->/home/alkhelaifi/AndroidStudioProjects/DessertClicker/app/src/main/AndroidManifest.xml:26:9-43
+33        android:allowBackup="true"
+33-->/home/alkhelaifi/AndroidStudioProjects/DessertClicker/app/src/main/AndroidManifest.xml:27:9-35
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.3.0] /home/alkhelaifi/.gradle/caches/transforms-2/files-2.1/e270a6e88d0fcab34dc57babf6858d5a/core-1.3.0/AndroidManifest.xml:24:18-86
+35        android:debuggable="true"
+36        android:icon="@mipmap/ic_dessert_clicker"
+36-->/home/alkhelaifi/AndroidStudioProjects/DessertClicker/app/src/main/AndroidManifest.xml:28:9-50
+37        android:label="@string/app_name"
+37-->/home/alkhelaifi/AndroidStudioProjects/DessertClicker/app/src/main/AndroidManifest.xml:29:9-41
+38        android:roundIcon="@mipmap/ic_dessert_clicker_round"
+38-->/home/alkhelaifi/AndroidStudioProjects/DessertClicker/app/src/main/AndroidManifest.xml:30:9-61
+39        android:supportsRtl="true"
+39-->/home/alkhelaifi/AndroidStudioProjects/DessertClicker/app/src/main/AndroidManifest.xml:31:9-35
+40        android:testOnly="true"
+41        android:theme="@style/AppTheme" >
+41-->/home/alkhelaifi/AndroidStudioProjects/DessertClicker/app/src/main/AndroidManifest.xml:32:9-40
+42        <activity android:name="com.example.android.dessertclicker.MainActivity" >
+42-->/home/alkhelaifi/AndroidStudioProjects/DessertClicker/app/src/main/AndroidManifest.xml:33:9-39:20
+42-->/home/alkhelaifi/AndroidStudioProjects/DessertClicker/app/src/main/AndroidManifest.xml:33:19-81
+43            <intent-filter>
+43-->/home/alkhelaifi/AndroidStudioProjects/DessertClicker/app/src/main/AndroidManifest.xml:34:13-38:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->/home/alkhelaifi/AndroidStudioProjects/DessertClicker/app/src/main/AndroidManifest.xml:35:17-69
+44-->/home/alkhelaifi/AndroidStudioProjects/DessertClicker/app/src/main/AndroidManifest.xml:35:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->/home/alkhelaifi/AndroidStudioProjects/DessertClicker/app/src/main/AndroidManifest.xml:37:17-77
+46-->/home/alkhelaifi/AndroidStudioProjects/DessertClicker/app/src/main/AndroidManifest.xml:37:27-74
+47            </intent-filter>
+48        </activity>
+49    </application>
+50
+51</manifest>
