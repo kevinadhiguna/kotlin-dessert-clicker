@@ -178,4 +178,10 @@ class MainActivity : AppCompatActivity() {
 
         Timber.i("onStop called")
     }
+
+    override fun onDestroy() {
+        super.onDestroy()
+
+        Timber.i("onDestroy called")
+    }
 }
