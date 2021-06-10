@@ -26,6 +26,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ShareCompat
 import androidx.databinding.DataBindingUtil
 import com.example.android.dessertclicker.databinding.ActivityMainBinding
+import timber.log.Timber
 
 class MainActivity : AppCompatActivity() {
 
@@ -69,7 +70,14 @@ class MainActivity : AppCompatActivity() {
          *  the Log.i() method writes an informational message.
          *  other methods in the Log class include Log.e() for errors, or Log.w() for warnings.
          */
-        Log.i("MainActivity", "onCreate Called")
+        // Log.i("MainActivity", "onCreate Called")
+
+        // Replace Log.i() with Timber.i()
+        Timber.i("onCreate called")
+
+        // Note :
+        // - Like the Log class, Timber also uses the i() method for informational messages.
+        // - Notice that with Timber you don't need to add a log tag; Timber automatically uses the name of the class as the log tag.
 
         // Use Data Binding to get reference to the views
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
