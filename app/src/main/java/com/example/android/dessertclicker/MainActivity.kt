@@ -160,4 +160,10 @@ class MainActivity : AppCompatActivity() {
         }
         return super.onOptionsItemSelected(item)
     }
+
+    override fun onResume() {
+        super.onResume()
+
+        Timber.i("onResume called")
+    }
 }
