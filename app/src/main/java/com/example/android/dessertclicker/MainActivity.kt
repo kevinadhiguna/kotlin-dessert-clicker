@@ -166,4 +166,10 @@ class MainActivity : AppCompatActivity() {
 
         Timber.i("onResume called")
     }
+
+    override fun onPause() {
+        super.onPause()
+
+        Timber.i("onPause called")
+    }
 }
