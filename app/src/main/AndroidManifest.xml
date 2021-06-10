@@ -17,6 +17,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.android.dessertclicker">
 
+    <!--
+    Note (regarding android:name attribute in the <application> tag) :
+        - If you don't add your custom Application class to the Android manifest, your app will run without errors.
+        - However, the app won't use your class, and you'll never see any logging information from Timber.
+    -->
     <application
         android:name=".ClickerApplication"
         android:allowBackup="true"
