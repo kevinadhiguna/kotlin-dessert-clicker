@@ -172,4 +172,10 @@ class MainActivity : AppCompatActivity() {
 
         Timber.i("onPause called")
     }
+
+    override fun onStop() {
+        super.onStop()
+
+        Timber.i("onStop called")
+    }
 }
