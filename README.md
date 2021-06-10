@@ -1,7 +1,31 @@
-DessertClicker - Starter Code
+🍨 DessertClicker
 ==============================
 
-Starter code for Android Kotlin Fundamentals Codelab 4.1 Lifecycles and logging.
+A part of [Android Kotlin Fundamentals Codelab 4.1 Lifecycles and logging](https://developer.android.com/codelabs/kotlin-android-training-lifecycles-logging).
+
+<div align="center">
+  <img src="https://s6.gifyu.com/images/Screenshot_1623311159.png" width="500" />
+</div>
+
+Just like a butterfly...<br />
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/43397636/121487971-d22c6b00-c9fc-11eb-8ed5-883931a105d3.png" />
+</div>
+
+<br />
+
+Every activity and every fragment has what is known as a lifecycle.
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/43397636/121487856-b4f79c80-c9fc-11eb-80dd-cc1b77c4fee1.png" />
+</div>
+
+<br />
+
+Activity and Fragment lifecycle :<br />
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/43397636/121488390-3d763d00-c9fd-11eb-9be2-7c6bde646e4a.png" />
+  <img src="https://user-images.githubusercontent.com/43397636/121488428-449d4b00-c9fd-11eb-85bf-561c7ef0a610.png" />
+</div>
 
 Introduction
 ------------
