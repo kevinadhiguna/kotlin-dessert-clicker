@@ -184,4 +184,10 @@ class MainActivity : AppCompatActivity() {
 
         Timber.i("onDestroy called")
     }
+
+    override fun onRestart() {
+        super.onRestart()
+
+        Timber.i("onRestart called")
+    }
 }
