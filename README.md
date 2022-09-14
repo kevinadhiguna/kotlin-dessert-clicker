@@ -3,29 +3,28 @@
 
 A part of [Android Kotlin Fundamentals Codelab 4.1 Lifecycles and logging](https://developer.android.com/codelabs/kotlin-android-training-lifecycles-logging).
 
-<div align="center">
-  <img src="https://s6.gifyu.com/images/Screenshot_1623311159.png" width="500" />
-</div>
+<img src="https://s6.gifyu.com/images/Screenshot_1623311159.png" width="500" />
 
-Just like a butterfly...<br />
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/43397636/121487971-d22c6b00-c9fc-11eb-8ed5-883931a105d3.png" />
-</div>
+<br />
+
+Just like a butterfly...
+
+<img src="https://user-images.githubusercontent.com/43397636/121487971-d22c6b00-c9fc-11eb-8ed5-883931a105d3.png" />
 
 <br />
 
 Every activity and every fragment has what is known as a lifecycle.
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/43397636/121487856-b4f79c80-c9fc-11eb-80dd-cc1b77c4fee1.png" />
-</div>
+
+<img src="https://user-images.githubusercontent.com/43397636/121487856-b4f79c80-c9fc-11eb-80dd-cc1b77c4fee1.png" />
 
 <br />
 
-Activity and Fragment lifecycle :<br />
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/43397636/121488390-3d763d00-c9fd-11eb-9be2-7c6bde646e4a.png" />
-  <img src="https://user-images.githubusercontent.com/43397636/121488428-449d4b00-c9fd-11eb-85bf-561c7ef0a610.png" />
-</div>
+Activity and Fragment lifecycle :
+
+<img src="https://user-images.githubusercontent.com/43397636/121488390-3d763d00-c9fd-11eb-9be2-7c6bde646e4a.png" />
+<img src="https://user-images.githubusercontent.com/43397636/121488428-449d4b00-c9fd-11eb-85bf-561c7ef0a610.png" />
+
+<br />
 
 Introduction
 ------------
@@ -35,6 +34,8 @@ earn the big bucks.
 
 You use this app in the course to explore the Android lifecycle and log messages to
 the Android console (Logcat).
+
+<br />
 
 Pre-requisites
 --------------
@@ -46,11 +47,14 @@ You need to know:
   that are performed in that method.
 - How to create layouts in your activity, and how to update a layout in runtime.
 
+<br />
 
 Getting Started
 ---------------
 
 1. Download and run the app.
+
+<br />
 
 License
 -------
@@ -72,5 +76,6 @@ WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the
 License for the specific language governing permissions and limitations under
 the License.
 
+<br />
 
 ![Hello !](https://api.visitorbadge.io/api/VisitorHit?user=kevinadhiguna&repo=kotlin-desert-clicker&label=thanks%20for%20dropping%20in%20!&labelColor=%23000000&countColor=%23FFFFFF)
